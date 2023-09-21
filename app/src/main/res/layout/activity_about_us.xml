@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logoHomePage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bluejack_logo"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/Title"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:layout_editor_absoluteX="-1dp" />
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="About Us"
+            android:textColor="#002737"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.277"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="256dp"
+            android:layout_height="214dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Bluejack is a pharmacy company that provides high-quality pharmaceutical products and services to its customers. With a focus on customer satisfaction and health, Bluejack offers a range of prescription and over-the-counter medications, as well as health and wellness products. Their knowledgeable and friendly staff is dedicated to providing personalized care and expert advice to help customers manage their health and wellness needs. Whether you need medication for a chronic condition or simply want to maintain a healthy lifestyle, Bluejack has you covered."
+            android:textAlignment="center"
+            android:textColor="#002737"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintVertical_bias="0.222" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/maps"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_gravity="center"
+            tools:layout="@layout/activity_about_us">
+
+        </androidx.fragment.app.FragmentContainerView>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

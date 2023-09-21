@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Bluejack Pharmacy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!--    Medicine Heading-->
+    <string name="head_1">Depakene Syrup 60 ml</string>
+    <string name="head_2">Depakene Syrup 120 ml</string>
+    <string name="head_3">Dumin Syrup 60 ml</string>
+    <string name="head_4">Dumin Forte 60 ml</string>
+    <string name="head_5">Valproic Acid Syrup 100 ml</string>
+    <string name="head_6">Vometa Drops 10 ml</string>
+    <string name="head_7">Narfoz Syrup 30 ml</string>
+    <string name="head_8">Limoxin Syrup 60ml</string>
+    <string name="head_9">Sanadryl Expectorant Syrup 60 ml</string>
+    <string name="head_10">Sanadryl Expectorant Syrup 120 ml</string>
+
+    <!--    Medicine Price-->
+    <string name="price_1">Rp. 65.000,-</string>
+    <string name="price_2">Rp. 85.000,-</string>
+    <string name="price_3">Rp. 125.000,-</string>
+    <string name="price_4">Rp. 45.000,-</string>
+    <string name="price_5">Rp. 85.000,-</string>
+    <string name="price_6">Rp. 95.000,-</string>
+    <string name="price_7">Rp. 105.000,-</string>
+    <string name="price_8">Rp. 35.000,-</string>
+    <string name="price_9">Rp. 55.000,-</string>
+    <string name="price_10">Rp. 85.000,-</string>
+
+    <!--    Medicine Desc-->
+    <string name="manufacturer_1">PT Abbot Indonesia</string>
+    <string name="manufacturer_2">PT Actavis Indonesia</string>
+    <string name="manufacturer_3">PT Bayer Indonesia</string>
+    <string name="manufacturer_4">PT Dexa Medica</string>
+    <string name="manufacturer_5">PT Pharos Indonesia</string>
+    <string name="manufacturer_6">PT Sanbe Farma</string>
+    <string name="title_activity_about_us">AboutUs</string>
+</resources>
